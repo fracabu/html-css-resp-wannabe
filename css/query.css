@@ -1,10 +1,26 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 1199px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .steps{
+        min-width: fit-content;
+    }  
+
+}
+
+
+
 @media screen and (max-width: 768px) {
     .container{
         width: 767px;
         padding-left: 1rem;
         padding-right: 1rem;
     }
-        
+    .steps{
+        min-width: fit-content;
+    }  
     }
 
 @media screen and (max-width: 480px) {
@@ -14,11 +30,35 @@
         padding-right: 1rem;    
         }
     
-        .row{
-        flex-direction: column;
-        flex-basis: 100%;
-        display: block;
-        
-        }
-            
+    .row {
+    flex-direction: column; 
+    align-items: center;       
     }
+    
+    .lesson .col {
+    width: 100%;
+    }
+
+    .ul {
+        text-align: center;
+    }
+    
+    .text-center{
+        font-size: 25px;;
+    }
+
+    .h2 {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+
+    
+
+}
+
+
+    
