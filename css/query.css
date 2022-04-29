@@ -24,40 +24,58 @@
     }
 
 @media screen and (max-width: 480px) {
+    
+    
     .container{
         width: 100%;
         padding-left: 1rem;
-        padding-right: 1rem;    
-        }
-    
+        padding-right: 1rem;
+    }
+
     .row {
     flex-direction: column; 
     align-items: center;       
     }
-    
-    .lesson .col {
-    width: 100%;
-    }
+
 
     .ul {
         text-align: center;
     }
     
     .text-center{
-        font-size: 25px;;
+        font-size: 20px;;
     }
-
-    .h2 {
-        font-size: 20px;
-    }
-
-    .text {
-        font-size: 12px;
-    }
-
 
     
 
+    .lessons .col {
+        width: 100%;
+        }
+    
+        .steps .col {
+            width: 100%;
+        }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+        }
+    
+    p{
+        font-size: 12px;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+    
 }
 
 
