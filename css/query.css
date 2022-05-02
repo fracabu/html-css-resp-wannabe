@@ -3,6 +3,7 @@
         width: 1199px;
         padding-left: 1rem;
         padding-right: 1rem;
+        
     }
     .steps{
         min-width: fit-content;
@@ -14,9 +15,10 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 767px;
+        
         padding-left: 1rem;
         padding-right: 1rem;
+        width: 100%;
     }
     .steps{
         min-width: fit-content;
